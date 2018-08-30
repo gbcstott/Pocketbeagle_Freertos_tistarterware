@@ -138,4 +138,5 @@ $(LIBSYSTEM_CONFIG) : $(LIBSYSTEM_CONFIG_OBJ)
 
 clean :
 	rm -f $(LIBSYSTEM_CONFIG_OBJ) $(RTOS_OBJ) $(RTOS_AOBJ) $(USER_OBJ) \
-	obj/app.out obj/app.bin bin_files/app
+	obj/app.out obj/app.bin bin_files/app \
+	lib/platform-am335x/libsystem_config.a
